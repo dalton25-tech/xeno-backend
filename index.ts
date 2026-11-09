@@ -1,7 +1,7 @@
 import { Hono } from "hono";
 import { bodyLimit } from "hono/body-limit";
 import { cors } from "hono/cors";
-import { generateReply, isAIConfigured } from "../src/ai/provider";
+import { generateReply, isAIConfigured } from "./src/ai/provider";
 
 const app = new Hono();
 const allowedOrigin = process.env.CORS_ORIGIN || "*";
