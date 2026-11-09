@@ -1,0 +1,21 @@
+{
+  "name": "xeno-backend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "XENO AI cloud backend by DALTRON TECHNOLOGIES",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "hono": "^4.13.16"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.1",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  }
+}
